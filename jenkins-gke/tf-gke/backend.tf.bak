@@ -16,7 +16,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "citric-skill-289614-tfstate"
+    bucket = "PROJECT_ID-tfstate"
     prefix = "jenkins"
   }
 }
